@@ -23327,7 +23327,10 @@ var Body = function (_React$Component) {
     _createClass(Body, [{
         key: "onLogin",
         value: function onLogin() {
-            alert("Succeghghgjs");
+            var name = document.getElementById("username");
+            var password = document.getElementById("password");
+
+            alert(name.value + "   " + password.value);
         }
     }, {
         key: "render",

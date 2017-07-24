@@ -58,5 +58,4 @@ typings/
 .env
 
 
-/1.Hello World/node_modules/
-/1.Hello World/.idea/
+.idea/

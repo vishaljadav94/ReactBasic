@@ -3,9 +3,12 @@ import React from 'react';
 export default class Body extends React.Component {
 
 
-
     onLogin() {
-        alert("Succeghghgjs");
+        let name = document.getElementById("username");
+        let password = document.getElementById("password");
+
+        alert(name.value + "   " + password.value);
+
     }
 
     render() {
